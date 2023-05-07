@@ -1,5 +1,6 @@
 import DataFromAPI from "./ApiData";
 import "./App.css";
+import Calculator from "./Calculator";
 import CheckList from "./CheckList";
 import Filter from "./Filter";
 import HideElement from "./HideElement";
@@ -38,6 +39,9 @@ function App() {
       </div>
       <div className="grid-item">
         <HideElement />
+      </div>
+      <div className="grid-item">
+        <Calculator />
       </div>
     </div>
   );
