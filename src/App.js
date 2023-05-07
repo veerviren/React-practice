@@ -2,6 +2,7 @@ import DataFromAPI from "./ApiData";
 import "./App.css";
 import CheckList from "./CheckList";
 import Filter from "./Filter";
+import HideElement from "./HideElement";
 import ImageSlider from "./ImageSlider";
 import Login from "./Login";
 import Maptoprint from "./Maptoprint";
@@ -34,6 +35,9 @@ function App() {
       </div>
       <div className="grid-item">
         <DataFromAPI />
+      </div>
+      <div className="grid-item">
+        <HideElement />
       </div>
     </div>
   );
