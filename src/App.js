@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CheckList from "./CheckList";
+import Filter from "./Filter";
+import ImageSlider from "./ImageSlider";
+import Maptoprint from "./Maptoprint";
+import ToogleContent from "./ToogleContent";
+import Counter from "./counter";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="grid-container">
+      <div className="grid-item">
+        <Counter />
+      </div>
+      <div className="grid-item">
+        <Filter />
+      </div>
+      <div className="grid-item">
+        <Maptoprint />
+      </div>
+      <div className="grid-item">
+        <ToogleContent />
+      </div>
+      <div className="grid-item">
+        <ImageSlider />
+      </div>
+      <div className="grid-item">
+        <CheckList />
+      </div>
     </div>
   );
 }
