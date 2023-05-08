@@ -4,11 +4,14 @@ import Calculator from "./Calculator";
 import CheckList from "./CheckList";
 import MyComponent from "./Component";
 import NameList from "./CreateElement";
+import DataFetcher from "./DataFetcherSpinner";
 import Filter from "./Filter";
 import HideElement from "./HideElement";
 import ImageSlider from "./ImageSlider";
 import Login from "./Login";
 import Maptoprint from "./Maptoprint";
+import TodoList from "./TodoList";
+import TodoListDynamic from "./TodoListDynamic";
 import ToogleContent from "./ToogleContent";
 import Counter from "./counter";
 
@@ -51,6 +54,15 @@ function App() {
       <div className="grid-item">
         <MyComponent />
       </div>
+      <div className="grid-item">
+        <DataFetcher />
+      </div>
+      <div className="grid-item">
+        <TodoList />
+      </div>
+      <din className="grid-item">
+        <TodoListDynamic/>
+        </din>
     </div>
   );
 }

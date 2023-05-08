@@ -3,12 +3,12 @@ import React, { useState } from "react";
 function ImageSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    "https://picsum.photos/id/237/200/300", // "https://picsum.photos/id/237/200/300
+    "https://picsum.photos/id/237/200/300",
       "https://picsum.photos/id/238/200/300",
       "https://picsum.photos/id/239/200/300",
       "https://picsum.photos/id/240/200/300",
       "https://picsum.photos/id/241/200/300",
-        "https://picsum.photos/id/242/200/300",
+      "https://picsum.photos/id/242/200/300",
   ];
 
   const handlePrev = () => {
