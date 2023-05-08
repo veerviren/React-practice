@@ -17,53 +17,56 @@ import Counter from "./counter";
 
 function App() {
   return (
-    <div className="grid-container">
-      <div className="grid-item">
-        <Counter />
-      </div>
-      <div className="grid-item">
-        <Filter />
-      </div>
-      <div className="grid-item">
-        <Maptoprint />
-      </div>
-      <div className="grid-item">
-        <ToogleContent />
-      </div>
-      <div className="grid-item">
-        <ImageSlider />
-      </div>
-      <div className="grid-item">
-        <CheckList />
-      </div>
-      <div className="grid-item">
-        <Login />
-      </div>
-      <div className="grid-item">
-        <DataFromAPI />
-      </div>
-      <div className="grid-item">
-        <HideElement />
-      </div>
-      <div className="grid-item">
-        <Calculator />
-      </div>
-      <div className="grid-item">
-        <NameList />
-      </div>
-      <div className="grid-item">
-        <MyComponent />
-      </div>
-      <div className="grid-item">
-        <DataFetcher />
-      </div>
-      <div className="grid-item">
-        <TodoList />
-      </div>
-      <din className="grid-item">
-        <TodoListDynamic/>
+    <>
+      <h1>Made by @veerviren</h1>
+      <div className="grid-container">
+        <div className="grid-item">
+          <Counter />
+        </div>
+        <div className="grid-item">
+          <Filter />
+        </div>
+        <div className="grid-item">
+          <Maptoprint />
+        </div>
+        <div className="grid-item">
+          <ToogleContent />
+        </div>
+        <div className="grid-item">
+          <ImageSlider />
+        </div>
+        <div className="grid-item">
+          <CheckList />
+        </div>
+        <div className="grid-item">
+          <Login />
+        </div>
+        <div className="grid-item">
+          <DataFromAPI />
+        </div>
+        <div className="grid-item">
+          <HideElement />
+        </div>
+        <div className="grid-item">
+          <Calculator />
+        </div>
+        <div className="grid-item">
+          <NameList />
+        </div>
+        <div className="grid-item">
+          <MyComponent />
+        </div>
+        <div className="grid-item">
+          <DataFetcher />
+        </div>
+        <div className="grid-item">
+          <TodoList />
+        </div>
+        <din className="grid-item">
+          <TodoListDynamic />
         </din>
-    </div>
+      </div>
+    </>
   );
 }
 
