@@ -20,7 +20,7 @@ function Calculator() {
   function divide() {
     if (num2 === 0) {
         alert("You can't divide by 0!");
-        return;
+        return;  
     }
     setResult(num1 / num2);
   }

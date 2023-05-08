@@ -2,6 +2,8 @@ import DataFromAPI from "./ApiData";
 import "./App.css";
 import Calculator from "./Calculator";
 import CheckList from "./CheckList";
+import MyComponent from "./Component";
+import NameList from "./CreateElement";
 import Filter from "./Filter";
 import HideElement from "./HideElement";
 import ImageSlider from "./ImageSlider";
@@ -42,6 +44,12 @@ function App() {
       </div>
       <div className="grid-item">
         <Calculator />
+      </div>
+      <div className="grid-item">
+        <NameList />
+      </div>
+      <div className="grid-item">
+        <MyComponent />
       </div>
     </div>
   );
